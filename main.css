@@ -13,6 +13,10 @@ body {
 }
 
 
-/* // // */
-
-
+/* Greco-Roman Meandors Patter | Top & Bottom */
+.greek-pattern {
+    display: flex;
+    background-image: url(./assets/images/studio-art/greco-roman-pattern.png);
+    background-repeat: round;
+    background-size: contain;
+}
