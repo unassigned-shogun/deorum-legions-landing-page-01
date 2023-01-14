@@ -17,7 +17,7 @@ p {
 }
 
 
-/* Greco-Roman Meandors Patter | Top & Bottom */
+/* Greco-Roman Meandros Patter | Top & Bottom */
 .greek-pattern {
     display: flex;
     background-image: url(./assets/images/studio-art/greco-roman-pattern.png);
@@ -29,9 +29,9 @@ p {
 .deorum-logo {
     background-image: radial-gradient(rgb(218, 26, 26), rgb(76, 12, 12));
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 3% 0 3% 0;
+    padding: 2% 0 2% 0;
 }
 
 .header-group {
