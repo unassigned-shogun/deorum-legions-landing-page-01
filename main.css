@@ -12,10 +12,15 @@ body {
     text-align: center;
 }
 
+
+
 p {
     line-height: 1.5rem;
 }
 
+img {
+    display: block;
+}
 
 /* Greco-Roman Meandros Patter | Top & Bottom */
 .greek-pattern {
@@ -26,12 +31,34 @@ p {
 }
 
 /* This is the Header group */
-.deorum-logo {
+
+.enter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.red-background {
     background-image: radial-gradient(rgb(218, 26, 26), rgb(76, 12, 12));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 10% 2% 10%;
+}
+
+.red-background > * {
+    color:#fff;
+}
+
+.logo-items {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2% 0 2% 0;
+    min-height: auto;
+    min-width: auto;
+    max-height: 650px;
+    max-width: auto;
 }
 
 
@@ -116,6 +143,8 @@ p {
 
 .laurel-leaves {
     margin-top: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 .epic-tale {
@@ -123,20 +152,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2% 10%;
+    margin: 2% 10% 10% 10%;
 }
 
 /* SECTION 2 */
 
-
-.imperial-dreams {
-    background-image: url(./assets/images/deorum-art/imperial-dreams.png);
-    min-height: 250px;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover; 
-}
 
 /* SECTION 3 */
 .section-03 {
@@ -155,25 +175,37 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2% 10%;
+    margin: 2% 10% 10% 10%;
 }
 
 /* SECTION 04 */
 .bhutaki-velkan {
     background-image: url(./assets/images/deorum-art/bhutaki-and-velkan.png);
     min-height: 300px;
-    min-width: 250px;
+    min-width: 500px;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* 
     background-attachment:fixed;
     background-position: center;
     background-repeat: repeat;
     background-size: cover; 
-}
+} */
 
 /* SECTION 05 */
 .velkan-text-top {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.velkan-center-image {
+    display: flex;
+    justify-content: center;
 }
 
 .velkan-text-bottom {
@@ -181,6 +213,14 @@ p {
     margin-bottom: 5%;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.halcyon-days-image {
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    margin: 5%;
+
 }
 
 /* SECTION 06 */
@@ -212,6 +252,7 @@ p {
     padding: 1rem 1.5rem;
     border-radius: 15px;
     text-decoration: none;
+    margin: 5% 0 5% 0;
 }
 
 .chapter-one-pdf:hover, .chapter-one-pdf:focus {
@@ -221,24 +262,59 @@ p {
 
 /* SECTION 07 */
 .section-07 {
+    border: 2px solid red;;
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     padding: 10% 5% 10% 5%;
     background-image: linear-gradient(rgb(182, 0, 127), rgb(88, 14, 87));
     color: #fff;
 }
 
+.book-one-cover {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    box-shadow: 0 0 2em rgb(0, 0, 0);
+}
+
+.amazon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 252, 241, 0.7), rgba(248, 218, 136, 0.7)), url(./assets/images/other/mosaic-floor-panel-google-art-project.jpg);
+    min-height: 400px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.amazon-group {
+    
+    margin: 10% 10% 10% 10%;
+}
+
+.amazon-button-div {
+    margin: 5% 0 5% 0;
+}
+
 .amazon-link {
-    background-color: rgb(70, 186, 76);
+    margin: 10% 0 10% 0;
+    background-color: rgb(18, 138, 223);
     color: #fff;
     padding: 1rem 1.5rem;
     border-radius: 15px;
     text-decoration: none;
-}
+   
+} 
 
 .amazon-link:hover, .amazon-link:focus {
     background-color: purple;
     color: rgb(254, 224, 51);
+    
 }
 
 
@@ -248,13 +324,20 @@ p {
     display: flex;
     justify-content: center;
     background-image: linear-gradient(#28334c, #171d2c);
-    padding: 2% 0 2% 0;
 }
 
-.social-media-icons {
+.social-icons-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 10%;
+
+}
+
+/* .social-media-icons {
+    flex: 1;
     width: 10%;
     height: 10;
-}
+} */
 
 .footer-text {
     display: flex;
@@ -262,4 +345,4 @@ p {
     background-image: linear-gradient(#171d2c, black);
     color: #fff;
    padding: 0 10% 2% 10%;
-}
+} 
