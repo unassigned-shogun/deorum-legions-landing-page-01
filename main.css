@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /* // Basic Paramter Resert  START // */
 * {
@@ -12,6 +12,10 @@ body {
     text-align: center;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 
 /* Greco-Roman Meandors Patter | Top & Bottom */
 .greek-pattern {
@@ -21,6 +25,7 @@ body {
     background-size: contain;
 }
 
+/* This is the Header group */
 .deorum-logo {
     display: flex;
     justify-content: center;
@@ -49,4 +54,28 @@ body {
     text-shadow: 0 0 2em rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 2em rgb(69, 69, 69);
+}
+
+/* SECTION 01 */
+
+.section-01 {
+    display: flex;
+    background-image: linear-gradient(rgba(255, 252, 241, 0.7), rgba(248, 218, 136, 0.7)), url(./assets/images/other/mosaic-floor-panel-google-art-project.jpg);
+    min-height: 250px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover; 
+}
+
+.mosaic-tiles {
+    background-color: rgba(255, 41, 41, 0.468);
+}
+
+.epic-tale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 10%;
 }
