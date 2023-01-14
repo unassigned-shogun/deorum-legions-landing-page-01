@@ -34,15 +34,59 @@ p {
     padding: 2% 0 2% 0;
 }
 
-.header-group {
+
+.welcome-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-container {
+    display: flex;
+    min-height: 500px;
+    flex-wrap: wrap;
+}
+
+.lucium-skyline {
+    flex: 4;
+    background-image: url(./assets/images/deorum-art/lucium-skyline.png);
+    background-size:cover;
+    background-position: 15% center;
+    min-width: 55%;
+    min-width:max-content;
+}
+
+.welcome-text-box {
+    flex: 1;
+    padding: 10% 5% 10% 5%;
+    background-image: linear-gradient(rgb(72, 3, 72), rgb(199, 33, 240));
+    color: #fff;
+}
+
+
+
+/* .header-group {
     display: flex;
     align-items: center;
-    background-image: url(./assets/images/deorum-art/lucium-skyline.png);
+   /*  background-image: url(./assets/images/deorum-art/lucium-skyline.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px; */
+
+
+
+
+   /*  background-image: url(./assets/images/deorum-art/lucium-skyline.png);
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+/* } 
+
+
+/* .header-intro {
+    display: flex;
 }
 
 .welcome {
@@ -54,7 +98,9 @@ p {
     text-shadow: 0 0 2em rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 2em rgb(69, 69, 69);
-}
+}  */
+
+
 
 /* SECTION 01 */
 .section-01 {
