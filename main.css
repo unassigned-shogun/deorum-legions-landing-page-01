@@ -88,6 +88,7 @@ img {display: block;}
 
 .velkan-text {margin: 5% 15% 0 15%;}
 
+
 /* --------------------------------------------------------------------- */
 /* LINKS */
 /* --------------------------------------------------------------------- */
@@ -126,6 +127,7 @@ img {display: block;}
     background-color: purple;
     color: rgb(254, 224, 51);
 }
+
 
 /* --------------------------------------------------------------------- */
 /* IMAGE ASSETS */
@@ -203,18 +205,3 @@ img {display: block;}
     background-repeat: no-repeat;
     background-size: cover; 
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
