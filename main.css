@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* // Basic Paramter Resert  START // */
+
+/* --------------------------------------------------------------------- */
+/* BASIC RESET & PARAMETERS */
+/* --------------------------------------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,17 +16,15 @@ body {
     text-align: center;
 }
 
+p {line-height: 1.5rem;}
+
+img {display: block;}
 
 
-p {
-    line-height: 1.5rem;
-}
+/* --------------------------------------------------------------------- */
+/* GRECO-ROMAN DESIGNS & PAGE AESTHETICS */
+/* --------------------------------------------------------------------- */
 
-img {
-    display: block;
-}
-
-/* Greco-Roman Meandros Patter | Top & Bottom */
 .greek-pattern {
     display: flex;
     background-image: url(./assets/images/studio-art/greco-roman-pattern.png);
@@ -30,107 +32,7 @@ img {
     background-size: contain;
 }
 
-/* This is the Header group */
-
-.enter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2%;
-}
-
-.red-background {
-    background-image: radial-gradient(rgb(218, 26, 26), rgb(76, 12, 12));
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2% 10% 2% 10%;
-}
-
-.red-background > * {
-    color:#fff;
-}
-
-.logo-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: auto;
-    min-width: auto;
-    max-height: 650px;
-    max-width: auto;
-}
-
-
-.welcome-group {
-    display: flex;
-    flex-direction: row;
-}
-
-.welcome-container {
-    display: flex;
-    min-height: 500px;
-    flex-wrap: wrap;
-}
-
-.lucium-skyline {
-    flex: 4;
-    background-image: url(./assets/images/deorum-art/lucium-skyline.png);
-    background-size:cover;
-    background-position: 15% center;
-    min-width: 55%;
-    min-width:max-content;
-}
-
-.welcome-text-box {
-    flex: 1;
-    padding: 10% 5% 10% 5%;
-    background-image: linear-gradient(rgb(72, 3, 72), rgb(199, 33, 240));
-    color: #fff;
-}
-
-
-
-/* .header-group {
-    display: flex;
-    align-items: center;
-   /*  background-image: url(./assets/images/deorum-art/lucium-skyline.png);
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 700px; */
-
-
-
-
-   /*  background-image: url(./assets/images/deorum-art/lucium-skyline.png);
-    min-height: 500px;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-/* } 
-
-
-/* .header-intro {
-    display: flex;
-}
-
-.welcome {
-    border-radius: 25px;
-    text-align: center;
-    padding: 1.5rem;
-    margin: 10% 20%;
-    color: #fff;
-    text-shadow: 0 0 2em rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.75);
-    box-shadow: 0 0 2em rgb(69, 69, 69);
-}  */
-
-
-
-/* SECTION 01 */
-.section-01 {
+.tile-mosaic-background {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(rgba(255, 252, 241, 0.7), rgba(248, 218, 136, 0.7)), url(./assets/images/other/mosaic-floor-panel-google-art-project.jpg);
@@ -147,7 +49,33 @@ img {
     justify-content: center;
 }
 
-.epic-tale {
+.crimson-background {
+    background-image: radial-gradient(rgb(218, 26, 26), rgb(76, 12, 12));
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 10% 2% 10%;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* STUDIO ASSETS */
+/* --------------------------------------------------------------------- */
+
+.deorum-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* TEXT GROUPS */
+/* --------------------------------------------------------------------- */
+
+.epic-tale-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,104 +83,21 @@ img {
     margin: 2% 10% 10% 10%;
 }
 
-/* SECTION 2 */
+.velkan-text {margin: 5% 15% 0 15%;}
 
-
-/* SECTION 3 */
-.section-03 {
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(rgba(255, 252, 241, 0.7), rgba(248, 218, 136, 0.7)), url(./assets/images/other/mosaic-floor-panel-google-art-project.jpg);
-    min-height: 250px;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover; 
-}
-
-.elysium-tales {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2% 10% 10% 10%;
-}
-
-/* SECTION 04 */
-.bhutaki-velkan {
-    background-image: url(./assets/images/deorum-art/bhutaki-and-velkan.png);
-    min-height: 300px;
-    min-width: 500px;
-    min-height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-/* 
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover; 
-} */
-
-/* SECTION 05 */
-.velkan-text-top {
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.velkan-center-image {
-    display: flex;
-    justify-content: center;
-}
-
-.velkan-text-bottom {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.halcyon-days-image {
-    display: flex;
-    border: 2px solid black;
-    justify-content: center;
-    margin: 5%;
-
-}
-
-/* SECTION 06 */
-.section-06 {
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient( rgb(218, 26, 26), rgb(76, 12, 12));
-}
-
-.pdf-container-outer {
-   background-color:white;
-   border-radius: 25px;
-
-   margin: 4% 7%;
-   padding: 15px;
-}
-
-.pdf-container-inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
+/* --------------------------------------------------------------------- */
+/* LINKS */
+/* --------------------------------------------------------------------- */
 
 .chapter-one-pdf {
     background-color: rgb(70, 186, 76);
+    border: solid 3px white;
     color: #fff;
     padding: 1rem 1.5rem;
     border-radius: 15px;
     text-decoration: none;
     margin: 5% 0 5% 0;
+    box-shadow: 0 0 2em rgb(0, 0, 0);
 }
 
 .chapter-one-pdf:hover, .chapter-one-pdf:focus {
@@ -260,23 +105,39 @@ img {
     color: rgb(254, 224, 51);
 }
 
-/* SECTION 07 */
-.section-07 {
-    border: 2px solid red;;
+.amazon-button-div {margin: 5% 0 5% 0;}
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10% 5% 10% 5%;
-    background-image: linear-gradient(rgb(182, 0, 127), rgb(88, 14, 87));
+.amazon-link {
+    margin: 10% 0 10% 0;
+    background-color: rgb(18, 138, 223);
+    border: solid 3px white;
     color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0 0 2em rgb(0, 0, 0);
+   
+} 
+
+.amazon-link:hover, .amazon-link:focus {
+    background-color: purple;
+    color: rgb(254, 224, 51);
 }
 
-.book-one-cover {
+/* --------------------------------------------------------------------- */
+/* IMAGE ASSETS */
+/* --------------------------------------------------------------------- */
+
+.velkan-center-image {
     display: flex;
     justify-content: center;
+}
+
+.halcyon-days-image {
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
     margin: 5%;
-    box-shadow: 0 0 2em rgb(0, 0, 0);
 }
 
 .amazon-container {
@@ -292,33 +153,19 @@ img {
     background-size: cover;
 }
 
-.amazon-group {
-    
-    margin: 10% 10% 10% 10%;
-}
+.amazon-group {margin: 10% 10% 10% 10%;}
 
-.amazon-button-div {
-    margin: 5% 0 5% 0;
-}
-
-.amazon-link {
-    margin: 10% 0 10% 0;
-    background-color: rgb(18, 138, 223);
-    color: #fff;
-    padding: 1rem 1.5rem;
-    border-radius: 15px;
-    text-decoration: none;
-   
-} 
-
-.amazon-link:hover, .amazon-link:focus {
-    background-color: purple;
-    color: rgb(254, 224, 51);
-    
+.book-one-cover {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    box-shadow: 0 0 2em rgb(0, 0, 0);
 }
 
 
+/* --------------------------------------------------------------------- */
 /* FOOTER */
+/* --------------------------------------------------------------------- */
 
 .social-media-group {
     display: flex;
@@ -329,20 +176,42 @@ img {
 .social-icons-row{
     display: flex;
     justify-content: space-around;
-    margin: 5% 10%;
+    margin: 1% 10%;
 
 }
-
-/* .social-media-icons {
-    flex: 1;
-    width: 10%;
-    height: 10;
-} */
 
 .footer-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-image: linear-gradient(#171d2c, black);
     color: #fff;
    padding: 0 10% 2% 10%;
+   gap: 1rem;
 } 
+
+/* UNUSED PARALLAX CODE */
+/* .bhutaki-velkan {
+    background-image: url(./assets/images/deorum-art/bhutaki-and-velkan.png);
+    min-height: 300px;
+    min-width: 500px;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
