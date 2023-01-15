@@ -14,12 +14,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-size: 1.2rem;
+
 }
 
 p {
     display: block;
     line-height: 1.5;
-    font-size: 1.2rem;
 }
 
 img {display: block;}
