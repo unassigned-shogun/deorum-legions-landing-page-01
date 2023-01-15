@@ -113,15 +113,14 @@ img {display: block;}
 
 
 .amazon-link {
-    margin: 10% 0 10% 0;
     background-color: rgb(18, 138, 223);
     border: solid 3px white;
     color: #fff;
     padding: 1rem 1.5rem;
     border-radius: 15px;
     text-decoration: none;
+    margin: 10% 0 10% 0;
     box-shadow: 0 0 2em rgb(0, 0, 0);
-   
 } 
 
 .amazon-link:hover, .amazon-link:focus {
