@@ -178,6 +178,11 @@ img {display: block;}
     background-image: linear-gradient(#28334c, #171d2c);
 }
 
+.social-icons-container {  /* My attept to fix the large social media icons */
+    max-width: 50%;
+    max-height: 50%;
+}
+
 .social-icons-row{
     display: flex;
     justify-content: space-around;
@@ -191,8 +196,8 @@ img {display: block;}
     align-items: center;
     background-image: linear-gradient(#171d2c, black);
     color: #fff;
-   padding: 0 10% 2% 10%;
-   gap: 1rem;
+    padding: 0 10% 2% 10%;
+    gap: 1rem;
 } 
 
 /* UNUSED PARALLAX CODE */
