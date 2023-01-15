@@ -151,7 +151,7 @@ img {display: block;}
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(255, 252, 241, 0.7), rgba(248, 218, 136, 0.7)), url(./assets/images/other/mosaic-floor-panel-google-art-project.jpg);
-    min-height: 400px;
+    min-height: 500px;
     background-attachment:fixed;
     background-position: center;
     background-repeat: repeat;
